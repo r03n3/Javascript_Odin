@@ -7,6 +7,26 @@
 <body>
   <script>
     // Your JavaScript goes here!
+    function add7(number){
+        return number+7;
+    }
+
+    function multiply(number1, number2){
+        return number1 * number2;
+    }
+
+    function capitalize(text){
+        const firstLetter = text.charAt(0);
+        const firstLetterCap = firstLetter.toUpperCase();
+        const remainingLetters = text.slice(1).toLowerCase();
+        const capitalizedWord = firstLetterCap + remainingLetters
+        return capitalizedWord;
+    }
+
+    function lastLetter(text){
+        const length = text.length-1;
+        const letter= text.charAt(length);
+    }
 
   </script>
 </body>
